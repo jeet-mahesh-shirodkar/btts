@@ -1,0 +1,30 @@
+
+.Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 558px;
+    overflow: hidden;
+    background-color:aliceblue;
+  }
+  
+ .Nav ul li {
+    float: left;
+  }
+  
+  li{
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+/*   
+  li:hover {
+    background-color: rgb(199, 225, 247);
+  } */
