@@ -3,7 +3,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-left: 558px;
+    padding-left: 548px;
     overflow: hidden;
     background-color:aliceblue;
   }
@@ -28,3 +28,13 @@
   li:hover {
     background-color: rgb(199, 225, 247);
   } */
+
+  @media screen and (max-width:400px){
+    .Nav ul{
+      padding-left: 0px;
+    }
+    li{
+      padding:14px 14px;
+      font-size: 14px;
+    }
+  }

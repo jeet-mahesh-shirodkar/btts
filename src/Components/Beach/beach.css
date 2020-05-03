@@ -1,0 +1,53 @@
+.beach{
+    padding: 20px 20px;
+}
+
+.beach img{
+    width: 50%;
+    height: 522px;
+    /* margin: 20px 5px; */
+}
+
+.care{
+    position: absolute;
+    bottom: 147px;
+    left: 511px;
+    width:500px;
+    height: 250px;
+    padding: 85px;
+    text-align: center;
+    background-color: #FC7E8A;
+    opacity: 0.7;
+}
+
+.care p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:400px){
+    .beach{
+        margin: 0px;
+        padding: 0px;
+    }
+    .beach img{
+        width: 100%;
+        height: 361px;
+        /* height: 522px; */
+        /* margin: 20px 5px; */
+    }
+    .care {
+        left: 9px;
+        width: 200px;
+        height: 99px;
+        background-color: #FC7E8A;
+        top: 679px;
+    }
+    .care p {
+        margin-bottom: 8px;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
