@@ -19,10 +19,23 @@ export const BeachComp = ()=>{
                 <h5>Car Hire</h5>
                 <p>SELF DRIVING</p>
                 <p>DRIVER DRIVING</p>
-                <h5>Bike Hire</h5>   
+                <h5>Bike Hire</h5>
         </div>
-        <div className="info2"></div>
-        <div className="info3"></div>
+        <div className="info2">
+                <h3>Activities</h3>
+                <p>WATER SPORTS PACKAGES</p>
+                <p>BOAT CRUISES TOURS</p>
+                <p>ISLAND TOURS</p>
+                <p>SCUBA DIVING</p>
+        </div>
+        <div className="info3">
+                  <h3>Water Sports Activities</h3>
+                  <p>PARASAILING</p>
+                  <p>JET SKI RIDE</p>
+                  <p>BANANA BOAT RIDE</p>
+                  <p>BUMPER RIDE</p>
+                  <p>3 TO 5 PERSON BOAT RIDE</p>
+        </div>
     </div>
     </div>
     );
