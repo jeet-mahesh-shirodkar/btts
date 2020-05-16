@@ -1,0 +1,34 @@
+.parent{
+    display: flex;
+    /* flex-flow: wrap-reverse; */
+    flex-flow: column;
+    /* align-content: center; */
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.parent div{  
+    width: 60%;
+    height: 315px;
+}
+
+.one{
+    background-color:teal;
+}
+
+.one:hover{
+    transform: scale(1.1);
+}
+.two{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:orange;
+}
+.three{
+    background-color:mediumseagreen;
+}
+.four{   
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:yellowgreen;
+}

@@ -1,0 +1,107 @@
+{
+    "data": {
+      "carSelf": [
+        {
+          "id": 1,
+          "name": "Mahindra Thar",
+          "price": 2500,
+          "imgURL": "/src/Images/Cars/Baleno.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Suzuki Baleno",
+            "price": 1800,
+            "imgURL": "./Images/Cars/Baleno.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Suzuki Ertiga",
+            "price": 2200,
+            "imgURL": ""
+        },
+        {
+            "id": 4,
+            "name": "Suzuki Swift",
+            "price": 1500,
+            "imgURL": ""
+         },
+        {
+            "id": 5,
+            "name": "Toyota Innova",
+            "price": 3500,
+            "imgURL": ""
+        },
+        {
+            "id": 6,
+            "name": "Suzuki Wagon-R",
+            "price": 1200,
+            "imgURL": ""
+        },
+        {
+            "id": 7,
+            "name": "Hyundai i10",
+            "price": 1100,
+            "imgURL": ""
+        }
+        
+      ],
+      "carDriver":[
+        {
+            "id": 1,
+            "name": "Sedan",
+            "price": 1800,
+            "imgURL": ""
+        },
+        {
+            "id": 2,
+            "name": "SUV",
+            "price": 2200,
+            "imgURL": ""
+        },
+        {
+            "id": 3,
+            "name": "Hatchback",
+            "price": 1500,
+            "imgURL":""
+        }
+      ],
+      "bike":[
+        {
+            "id": 1,
+            "name": "Harley Davidson Street",
+            "price": 4000,
+            "imgURL": ""
+          },
+          {
+              "id": 2,
+              "name": "Royal Enfeild Bullet",
+              "price": 900,
+              "imgURL": ""
+          },
+          {
+              "id": 3,
+              "name": "Bajaj Avenger",
+              "price": 1200,
+              "imgURL": ""
+          },
+          {
+              "id": 4,
+              "name": "Honda Activa",
+              "price": 400,
+              "imgURL": ""
+           },
+          {
+              "id": 5,
+              "name": "Vespa",
+              "price": 400,
+              "imgURL": ""
+          },
+          {
+              "id": 6,
+              "name": "Yahama Fascino",
+              "price": 400,
+              "imgURL": ""
+          }
+      ]
+    }
+  }

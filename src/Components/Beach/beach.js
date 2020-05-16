@@ -1,17 +1,17 @@
 import React from 'react';
 import Beach from '../../Images/Beach-min.png';
 import Sun from '../../Images/sunlight.png';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
 import './beach.css';
 
-export const BeachComp = ()=>{
+const BeachComp = ()=>{
     return(
     <div className="beach">
     <img src={Beach} alt="bg"/>
     <img src={Sun} alt="sun"/>
     <div className="care">
         <p>We Care We Plan</p>
-        <Button variant="light">Contact US</Button>
+        <Button variant="light">Contact Us</Button>
     </div>
     <div className="info">
         <div className="info1">
@@ -40,3 +40,5 @@ export const BeachComp = ()=>{
     </div>
     );
 }
+
+export default BeachComp;
