@@ -11,7 +11,9 @@ const Showcase=()=>{
                 <div className="parent">
                 <div className="one">
                     <img style={{height:"inherit", width:" 70%"}} src={Car} alt="thar"/>
+                    <div className="middle">
                     <span className="carHire">Car Hire</span>
+                    </div>
                 </div>
                 <div className="two">
                 <img style={{height:"inherit", width:" 70%"}} src={Bike} alt="thar"/>
