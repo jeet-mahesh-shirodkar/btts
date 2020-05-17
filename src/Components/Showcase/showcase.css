@@ -7,29 +7,102 @@
     background-color: aliceblue;
 }
 
-.parent div{  
-    width: 60%;
-    height: 315px;
+.headingCar,.headingBike,.headingSnor,.headingScuba{
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+  }
+
+.middle{
+    top: 154%;
+    color: whitesmoke;
+    left: 57%;
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    transform: translate(-40%, -59%);
+    background-color: rgb(20, 68, 68);
+    text-align: -webkit-center;
+}
+
+.middleTwo{
+    color: whitesmoke;
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    transform: translate(-96%, 10%);
+    background-color: #343233;;
+    text-align: -webkit-center;
+}
+
+.middleThree{
+    color: whitesmoke;
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    transform: translate(103%, -120%);
+    background-color: #02599c;
+    text-align: -webkit-center;
+}
+
+.middleFour{
+    color: whitesmoke;
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    transform: translate(-115%, 18%);
+    background-color:#029ab9;
+    text-align: -webkit-center;
+}
+
+.carHire{
+    font-size: 20px;
+    padding: 55px;
+    text-decoration: overline;
+}
+
+.bikeHire{
+    font-size: 22px;
+    padding: 56px;
+    text-decoration: overline;
+}
+
+.scuba{   
+    font-size: 22px;
+    padding: 56px;
+    text-decoration: overline;
+}
+.snorkeling{   
+    font-size: 22px;
+    padding: 56px;
+    text-decoration: overline;
+}
+
+.one:hover .middle{
+        opacity: 1;
+}
+
+.two:hover .middleTwo{
+        opacity: 1;
 }
 
 .one{
-    background-color:teal;
+    width: 52%;
+    height: 335px;
 }
 
-.one:hover{
-    transform: scale(1.1);
-    opacity: 0.5;
-}
 .two{
     display: flex;
-    flex-direction: row-reverse;
-    background-color:orange;
+    flex-direction: row-reverse; 
+    width: 52%;
+    height: 335px;
 }
-.three{
-    background-color:mediumseagreen;
+.three{ 
+    width: 52%;
+    height: 335px;
 }
 .four{   
     display: flex;
     flex-direction: row-reverse;
-    background-color:yellowgreen;
+    width: 52%;
+    height: 335px;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Components/Header/header';
 import Showcase from './Components/Showcase/showcase';
-// import BeachComp from './Components/Beach/beach';
+import BeachComp from './Components/Beach/beach';
 // import Vehicle from './Components/Vehicle/vehicleRental';
 
 
@@ -11,9 +11,10 @@ function App() {
     <div>
       <div className="heading">Bhoomi Tours and Travels</div>
       <Header/>
+      <BeachComp/> 
       <Showcase/>
-      {/* <BeachComp/> */}
       {/* <Vehicle/> */}
+      <div className="footerText"><p>© 2020 Bhoomi Tours and Travels</p><h6>Developed by Me</h6></div>
     </div>
   );
 }
