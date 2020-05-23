@@ -4,7 +4,7 @@ import Sun from '../../Images/sunlight.png';
 import Button from 'react-bootstrap/Button';
 import './beach.css';
 
-const BeachComp = ()=>{
+const BeachComp = ()=> {
     return(
     <div className="beach">
     <img src={Beach} alt="bg"/>

@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import vehicleData from '../../data.json';
-import Sun from '../../Images/Cars/Ertiga.jpg';
+// import Sun from '../../Images/Cars/Ertiga.jpg';
 import './vehicleRental.css';
 
 export default class Vehicle extends React.Component{  
@@ -14,6 +14,7 @@ export default class Vehicle extends React.Component{
         return(
         <React.Fragment>
             <div className="head">Car Hire</div>
+            {/* <img src= {require("../../Images/Cars/Ertiga.jpg")} alt="new"/> */}
             <div className="preHead">
                 <p>Self Driving</p>
                 <p>Travel all enlightening places of Goa on your own terms.</p>
@@ -23,19 +24,19 @@ export default class Vehicle extends React.Component{
                 <Col md={1}></Col>
             <CardDeck>
             {
-            vehicleData.data.carSelf.map((i,el)=>
-            <Col md={4} key={el}>
+            vehicleData.data.carSelf.map((i,el)=>{
+                return <Col md={4} key={el}>
                 <Card>
-                 <Card.Img variant="top" src={Sun} alt={i.name}/>
-                <Card.Body>
-                    <Card.Title>{i.name}</Card.Title>
-                </Card.Body>
-                <Card.Footer>
-            <small className="text-muted">From {i.price}</small>
-                </Card.Footer>
-            </Card>
-            </Col>
-            )}
+                    <Card.Img variant="top" src={i.imgURL} alt={i.name}/>
+                    <Card.Body>
+                        <Card.Title>{i.name}</Card.Title>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">From {i.price}</small>
+                    </Card.Footer>
+                </Card>
+                </Col>
+            })}
             </CardDeck>
             <Col md={1}></Col> 
             </Row>
@@ -52,7 +53,7 @@ export default class Vehicle extends React.Component{
             vehicleData.data.carDriver.map((i,el)=>
             <Col md={4} key={el}>
                 <Card>
-                 <Card.Img variant="top" src={Sun} alt={i.name}/>
+                 <Card.Img variant="top" src={i.imgURL} alt={i.name}/>
                 <Card.Body>
                     <Card.Title>{i.name}</Card.Title>
                 </Card.Body>
@@ -78,7 +79,7 @@ export default class Vehicle extends React.Component{
             vehicleData.data.bike.map((i,el)=>
             <Col md={4} key={el}>
                 <Card>
-                 <Card.Img variant="top" src={Sun} alt={i.name}/>
+                 <Card.Img variant="top" src={i.imgURL} alt={i.name}/>
                 <Card.Body>
                     <Card.Title>{i.name}</Card.Title>
                 </Card.Body>

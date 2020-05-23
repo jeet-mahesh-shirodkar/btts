@@ -5,43 +5,43 @@
           "id": 1,
           "name": "Mahindra Thar",
           "price": 2500,
-          "imgURL": "/src/Images/Cars/Baleno.jpg"
+          "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Cars/Thar.jpg?raw=true"
         },
         {
             "id": 2,
             "name": "Suzuki Baleno",
             "price": 1800,
-            "imgURL": "./Images/Cars/Baleno.jpg"
+            "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Cars/Baleno.jpg?raw=true"
         },
         {
             "id": 3,
             "name": "Suzuki Ertiga",
             "price": 2200,
-            "imgURL": ""
+            "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Cars/Ertiga.jpg?raw=true"
         },
         {
             "id": 4,
             "name": "Suzuki Swift",
             "price": 1500,
-            "imgURL": ""
+            "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Cars/Swift.jpg?raw=true"
          },
         {
             "id": 5,
             "name": "Toyota Innova",
             "price": 3500,
-            "imgURL": ""
+            "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Cars/Innova.png?raw=true"
         },
         {
             "id": 6,
             "name": "Suzuki Wagon-R",
             "price": 1200,
-            "imgURL": ""
+            "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Cars/WagonR.jpg?raw=true"
         },
         {
             "id": 7,
             "name": "Hyundai i10",
             "price": 1100,
-            "imgURL": ""
+            "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Cars/i100.jpg?raw=true"
         }
         
       ],
@@ -50,19 +50,19 @@
             "id": 1,
             "name": "Sedan",
             "price": 1800,
-            "imgURL": ""
+            "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Cars/HondaCity.jpg?raw=true"
         },
         {
             "id": 2,
             "name": "SUV",
             "price": 2200,
-            "imgURL": ""
+            "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Cars/Innova.png?raw=true"
         },
         {
             "id": 3,
             "name": "Hatchback",
             "price": 1500,
-            "imgURL":""
+            "imgURL":"https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Cars/WagonR.jpg?raw=true"
         }
       ],
       "bike":[
@@ -70,37 +70,37 @@
             "id": 1,
             "name": "Harley Davidson Street",
             "price": 4000,
-            "imgURL": ""
+            "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Bikes/harley.jpg?raw=true"
           },
           {
               "id": 2,
               "name": "Royal Enfeild Bullet",
               "price": 900,
-              "imgURL": ""
+              "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Bikes/Bullet_350.jpg?raw=true"
           },
           {
               "id": 3,
               "name": "Bajaj Avenger",
               "price": 1200,
-              "imgURL": ""
+              "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Bikes/Avenger.jpg?raw=true"
           },
           {
               "id": 4,
               "name": "Honda Activa",
               "price": 400,
-              "imgURL": ""
+              "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Bikes/Activa.png?raw=true"
            },
           {
               "id": 5,
               "name": "Vespa",
               "price": 400,
-              "imgURL": ""
+              "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Bikes/vespa.jpg?raw=true"
           },
           {
               "id": 6,
               "name": "Yahama Fascino",
               "price": 400,
-              "imgURL": ""
+              "imgURL": "https://github.com/jeet-mahesh-shirodkar/btts/blob/master/src/Images/Bikes/Fascino.jpg?raw=true"
           }
       ]
     }

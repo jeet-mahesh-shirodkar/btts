@@ -23,23 +23,23 @@ const Showcase=()=>{
                 <div className="two">
                 <img style={{height:"inherit", width:" 70%"}} src={Bike} alt="bullet"/>
                     <div className="middleTwo">
-                    <div className="bikeHire">
-                        <span className="headingBike">Bike Hire</span>
-                        <hr/>
-                            Be one step ahead to traffic
-                        <hr/>
-                    </div>
+                        <div className="bikeHire">
+                            <span className="headingBike">Bike Hire</span>
+                                <hr/>
+                                    Be one step ahead to traffic
+                                <hr/>
+                        </div>
                     </div>
                 </div>
                 <div className="three">
                 <img style={{height:"inherit", width:" 70%"}} src={Scuba} alt="scuba"/>
-                    <div className="middleThree">
-                        <div className="scuba">
-                            <span className="headingScuba">Scuba</span>
-                            <hr/>
-                            Explore underwater noise
-                            <hr/>
-                    </div>
+                        <div className="middleThree">
+                            <div className="scuba">
+                                <span className="headingScuba">Scuba</span>
+                                    <hr/>
+                                    Explore underwater noise
+                                    <hr/>
+                        </div>
                     </div>
                 </div>
                 <div className="four">    
@@ -54,9 +54,7 @@ const Showcase=()=>{
                     </div>
                 </div>
                 </div>
-                <div style={{width:"100%",height:"100px"}}>
-                    d
-                </div>
+                <div style={{width:"100%",height:"100px"}}></div>
             </React.Fragment>
        );
 }

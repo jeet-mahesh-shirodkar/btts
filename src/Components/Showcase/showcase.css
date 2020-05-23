@@ -1,8 +1,6 @@
 .parent{
     display: flex;
-    /* flex-flow: wrap-reverse; */
     flex-flow: column;
-    /* align-content: center; */
     align-items: center;
     background-color: aliceblue;
 }
@@ -19,7 +17,7 @@
     transition: .5s ease;
     opacity: 1;
     position: absolute;
-    transform: translate(-40%, -59%);
+    transform: translate(-27%, -51%);
     background-color: rgb(20, 68, 68);
     text-align: -webkit-center;
 }
@@ -55,54 +53,27 @@
 }
 
 .carHire{
-    font-size: 20px;
-    padding: 55px;
+    font-size: 16px;
+    padding: 56px;
     text-decoration: overline;
 }
 
-.bikeHire{
+.bikeHire, .scuba, .snorkeling{
     font-size: 22px;
     padding: 56px;
     text-decoration: overline;
 }
 
-.scuba{   
-    font-size: 22px;
-    padding: 56px;
-    text-decoration: overline;
-}
-.snorkeling{   
-    font-size: 22px;
-    padding: 56px;
-    text-decoration: overline;
-}
-
-.one:hover .middle{
-        opacity: 1;
-}
-
-.two:hover .middleTwo{
-        opacity: 1;
-}
-
-.one{
+.one, .three{
+    margin-top: 23px;
     width: 52%;
     height: 335px;
 }
 
-.two{
+.two, .four{
+    margin-top: 23px;
     display: flex;
     flex-direction: row-reverse; 
-    width: 52%;
-    height: 335px;
-}
-.three{ 
-    width: 52%;
-    height: 335px;
-}
-.four{   
-    display: flex;
-    flex-direction: row-reverse;
     width: 52%;
     height: 335px;
 }
