@@ -5,6 +5,7 @@ import Showcase from './Components/Showcase/showcase';
 import BeachComp from './Components/Beach/beach';
 import Footer from './Components/Footer/footer';
 import Vehicle from './Components/Vehicle/vehicleRental';
+import {Activities} from './Components/Activities/activities';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       {/* <BeachComp/>  */}
       {/* <Showcase/> */}
       {/* <Vehicle/> */}
+      <Activities/>
       <Footer/>
       <div className="footerText"></div>
       <div className="footerText"><p>© 2020 Bhoomi Tours and Travels</p><h6>Developed by Me</h6></div>
