@@ -14,7 +14,6 @@ export default class Vehicle extends React.Component{
         return(
         <React.Fragment>
             <div className="head">Car Hire</div>
-            {/* <img src= {require("../../Images/Cars/Ertiga.jpg")} alt="new"/> */}
             <div className="preHead">
                 <p>Self Driving</p>
                 <p>Travel all enlightening places of Goa on your own terms.</p>

@@ -13,7 +13,7 @@ function App() {
     <div>
       <div className="headerText">Bhoomi Tours and Travels</div>
       <Header/>
-      {/* <BeachComp/>  */}
+      {/* <BeachComp/> */}
       {/* <Showcase/> */}
       {/* <Vehicle/> */}
       <Activities/>

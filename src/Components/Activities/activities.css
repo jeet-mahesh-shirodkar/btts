@@ -1,0 +1,41 @@
+.activitiesMain{
+    text-align: center;
+}
+
+.activitiesMain img{
+    height: 600px;
+}
+
+img{
+    height: 232px;
+}
+
+h3{
+    color: black;
+    text-decoration: uppercase ;
+}
+
+.head{
+    padding: 14px 0px;
+    width: 100%;
+    height: 80px;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+  }
+
+.preHead{
+    padding: 14px 0px;
+    width: 100%;
+    height: 52px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+}       
