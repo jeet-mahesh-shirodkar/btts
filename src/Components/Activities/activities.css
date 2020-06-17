@@ -15,6 +15,15 @@ h3{
     text-decoration: uppercase ;
 }
 
+.scuba-img{
+    height: 500px;
+}
+
+.Scuba-Text{    
+    color: white;
+    margin-top: 305px;
+}
+
 .head{
     padding: 14px 0px;
     width: 100%;
@@ -24,7 +33,6 @@ h3{
     font-weight: bold;
     background-color: aliceblue;
     text-align: center;
-    cursor: pointer;
   }
 
 .preHead{
@@ -37,5 +45,4 @@ h3{
     font-weight: bold;
     background-color: aliceblue;
     text-align: center;
-    cursor: pointer;
 }       
