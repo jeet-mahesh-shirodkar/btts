@@ -10,6 +10,7 @@ import snorkel from '../../Images/Activities/snorkel-hierro.jpg';
 import dolphin from '../../Images/Activities/dolphin.jpg';
 import banglow from '../../Images/Activities/Banglow.jpg';
 import scuba from '../../Images/Activities/scuba.jpg';
+import cruise from '../../Images/Activities/cruise.jpg';
 import './activities.css';
 import { Container,Row, Col} from 'react-bootstrap';
 
@@ -109,11 +110,37 @@ export const Activities = () => {
                                     <Card.ImgOverlay>
                                         <Card.Text>
                                             <div className="Scuba-Text">
-                                        <h5>- TRAINING ( Swimmer & Non Swimmer )</h5>
-                                        <h5>- DIVING WITH GUIDE</h5>
-                                        <h5>- DIVING PHOTO & VIDEO</h5>
-                                        <h5>- FOOD & BEVERAGES INCLUDED</h5>
-                                        <h5>@ RS 3500 /- *** Per Person</h5>
+                                                <h5>- TRAINING ( Swimmer & Non Swimmer )</h5>
+                                                <h5>- DIVING WITH GUIDE</h5>
+                                                <h5>- DIVING PHOTO & VIDEO</h5>
+                                                <h5>- FOOD & BEVERAGES INCLUDED</h5>
+                                                <h5>@ RS 3500 /- *** Per Person</h5>
+                                            </div>
+                                        </Card.Text>
+                                    </Card.ImgOverlay>
+                            </Card>
+                       </Col>
+                      </Row>
+                     <hr/>
+                </Container>
+                <div className="head">Cruise Tour </div>
+                <Container>
+                    <hr/>    
+                   <Row>
+                       <Col md={12}>
+                            <Card className="bg-dark">
+                                <Card.Img src={cruise} alt="Cruise" className="cruise-img"/>
+                                    <Card.ImgOverlay>
+                                        <Card.Text>
+                                            <div className="cruise-Text">
+                                                <h5>CRUISE TOURISM </h5>
+                                                <p>
+                                                   The Cruise takes you around the Mandovi River.
+                                                   During the sailing the folks will perform the dances and sing cultural songs.
+                                                   The Cruise will take you to Panjim riverfront ,so you would be able to enjoy 
+                                                   the city sea through the river.
+                                                </p>
+                                                <h5>Duration : 1 hour            @ 400/- *** Per Person </h5>
                                             </div>
                                         </Card.Text>
                                     </Card.ImgOverlay>
