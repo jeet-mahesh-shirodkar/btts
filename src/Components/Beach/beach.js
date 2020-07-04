@@ -3,6 +3,7 @@ import Beach from '../../Images/Beach-min.png';
 import Sun from '../../Images/sunlight.png';
 import Button from 'react-bootstrap/Button';
 import './beach.css';
+import Showcase from '../Showcase/showcase';
 
 const BeachComp = ()=> {
     return(
@@ -37,6 +38,7 @@ const BeachComp = ()=> {
                   <p>3 TO 5 PERSON BOAT RIDE</p>
         </div>
     </div>
+    <Showcase/>
     </div>
     );
 }

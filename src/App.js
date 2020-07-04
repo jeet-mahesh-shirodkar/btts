@@ -6,21 +6,24 @@ import BeachComp from './Components/Beach/beach';
 import Footer from './Components/Footer/footer';
 import Vehicle from './Components/Vehicle/vehicleRental';
 import {Activities} from './Components/Activities/activities';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <div className="headerText">Bhoomi Tours and Travels</div>
       <Header/>
-      {/* <BeachComp/> */}
-      {/* <Showcase/> */}
-      {/* <Vehicle/> */}
-      <Activities/>
+      <Switch>
+        <Route path="/" exact component={BeachComp}/>
+        <Route path="/vehicle" component={Vehicle}/>
+        <Route path="/activities" component={Activities}/>
+        <Redirect to="/"/>
+      </Switch>
       <Footer/>
       <div className="footerText"></div>
       <div className="footerText"><p>© 2020 Bhoomi Tours and Travels</p><h6>Developed by Me</h6></div>
-    </div>
+    </React.Fragment>
   );
 }
 
