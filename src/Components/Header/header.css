@@ -12,13 +12,12 @@
     float: left;
   }
   
-  li{
+  .Nav ul li a{
     display: block;
     color: #111;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-radius: 100px;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 500;
@@ -29,7 +28,12 @@
     background-color: rgb(199, 225, 247);
   } */
 
-  li:hover {
+  .nav-active{
+    color:rgb(207, 94, 28) !important;
+    border-bottom: 2px solid rgb(207, 94, 28);
+  }
+
+  .Nav ul li a:hover {
     color:rgb(207, 94, 28);
   }
 
