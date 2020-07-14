@@ -55,7 +55,9 @@ const Footer=()=>{
             </Card>
             </Col>
         </Row>
-        </Container>
+        </Container>     
+      <div className="footerText"></div>
+      <div className="footerText"><p>© 2020 Bhoomi Tours and Travels</p><h6>Developed by Me</h6></div>
         </div>
     </React.Fragment>);
 }

@@ -4,6 +4,7 @@ import Sun from '../../Images/sunlight.png';
 import Button from 'react-bootstrap/Button';
 import './beach.css';
 import Showcase from '../Showcase/showcase';
+import { Link } from 'react-router-dom';
 
 const BeachComp = ()=> {
     return(
@@ -12,7 +13,7 @@ const BeachComp = ()=> {
     <img src={Sun} alt="sun"/>
     <div className="care">
         <p>We Care We Plan</p>
-        <Button variant="light">Contact Us</Button>
+        <Button variant="light"><Link to="/contact">Contact Us</Link></Button>
     </div>
     <div className="info">
         <div className="info1">

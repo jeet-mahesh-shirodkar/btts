@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
     return(
    <div className="myNav">
-    <div className="Nav">
+    <div className="Nav col-md-12">
       <ul>
         <li><NavLink exact activeClassName="nav-active" to="/">Home</NavLink></li>
         <li><NavLink activeClassName="nav-active" to="/vehicle">Vehicle Rental</NavLink></li>
