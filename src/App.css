@@ -27,9 +27,36 @@
   margin-bottom: 3px;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 376px){
  .heading{ 
     font-size: 30px;
 
   }
+  .headerText{
+    padding: 30px 0px;
+  width: 100%;
+  height: auto;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+  }
 }
+
+@media only screen and (max-width: 450px){
+  .heading{ 
+     font-size: 30px;
+ 
+   }
+   .headerText{
+     padding: 30px 0px;
+   width: 100%;
+   height: auto;
+     font-size: 25px;
+     font-weight: bold;
+     background-color: aliceblue;
+     text-align: center;
+     cursor: pointer;
+   }
+ }
