@@ -18,8 +18,8 @@ const Footer=()=>{
                     <Card.Title>MAIL</Card.Title>
                     <Card.Text>E-mail : travels@some.com</Card.Text>
                     <Card.Text>
-                    <a href="https://www.facebook.com/pg/bhoomitravel"><i className="fa fa-facebook-square" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/bhoomitourstravels7/"><i className="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/pg/bhoomitravel"><i className="fa fa-facebook-square" aria-hidden="true"></i> </a>
+                    <a href="https://www.instagram.com/jeet.shirodkar/"><i className="fa fa-instagram" aria-hidden="true"></i> </a>
                     </Card.Text>  
                 </Card.Body>
             </Card>
