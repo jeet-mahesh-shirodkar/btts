@@ -77,3 +77,68 @@
     width: 52%;
     height: 335px;
 }
+
+@media only screen and (max-width: 376px) {
+    .one, .two ,.three,.four{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+.one img,.two img,.three img, .four img{
+    width: 100% !important;
+    padding: 8%;
+}
+
+.carHire, .bikeHire,.scuba, .snorkeling{
+    font-size: 12px;
+    padding: 0px;
+    text-decoration: overline;
+}
+
+.middle,.middleTwo,.middleThree,.middleFour{
+    color: whitesmoke;
+    transition: .5s ease;
+    opacity: 1;
+    position: static !important;
+    transform: none;
+}
+
+.emptyBlock{
+    height: 50px !important;
+}
+ }
+
+ @media only screen and (max-width:450px) {
+    .one, .two ,.three,.four{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+.one img,.two img,.three img, .four img{
+    width: 100% !important;
+    padding: 8%;
+}
+
+.carHire, .bikeHire,.scuba, .snorkeling{
+    font-size: 12px;
+    padding: 0px;
+    text-decoration: overline;
+}
+
+.middle,.middleTwo,.middleThree,.middleFour{
+    color: whitesmoke;
+    transition: .5s ease;
+    opacity: 1;
+    position: static !important;
+    transform: none;
+}
+
+.emptyBlock{
+    height: 50px !important;
+}
+ }
+   

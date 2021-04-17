@@ -10,7 +10,9 @@ const Showcase=()=>{
             <React.Fragment>
                 <div className="parent">
                 <div className="one">
-                    <img style={{height:"inherit", width:" 70%"}} src={Car} alt="Swift"/>
+                    <div className="one_img">
+                        <img style={{height:"inherit", width:" 70%"}} src={Car} alt="Swift"/>
+                    </div>
                     <div className="middle">
                     <div className="carHire">
                         <span className="headingCar">Car Hire</span>
@@ -21,7 +23,7 @@ const Showcase=()=>{
                     </div>
                 </div>
                 <div className="two">
-                <img style={{height:"inherit", width:" 70%"}} src={Bike} alt="bullet"/>
+                        <img style={{height:"inherit", width:" 70%"}} src={Bike} alt="bullet"/>
                     <div className="middleTwo">
                         <div className="bikeHire">
                             <span className="headingBike">Bike Hire</span>
@@ -54,7 +56,7 @@ const Showcase=()=>{
                     </div>
                 </div>
                 </div>
-                <div style={{width:"100%",height:"100px"}}></div>
+                <div className="emptyBlock" style={{width:"100%",height:"100px"}}></div>
             </React.Fragment>
        );
 }
