@@ -9,8 +9,10 @@ import { Link } from 'react-router-dom';
 const BeachComp = ()=> {
     return(
     <div className="beach">
-    <img src={Beach} alt="bg"/>
-    <img src={Sun} alt="sun"/>
+        <div className="beach__img">
+            <img src={Beach} alt="bg"/>
+            <img src={Sun} alt="sun"/>
+        </div>
     <div className="care">
         <p>We Care We Plan</p>
         <Button variant="light"><Link to="/contact">Contact Us</Link></Button>

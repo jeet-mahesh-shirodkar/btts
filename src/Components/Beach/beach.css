@@ -2,7 +2,7 @@
     padding: 20px 20px;
 }
 
-.beach img{
+.beach__img img{
     width: 50%;
     height: 522px;
 }
@@ -41,39 +41,84 @@
     margin-bottom: 5px !important;
 } 
 
-/* .info1{
-    background-color: aquamarine;
-}
-
-.info2{
-    background-color: blueviolet;
-}
-
-.info3{
-    background-color: burlywood;
-} */
-
-
-@media only screen and (max-width:390px){
+@media only screen and (max-width:376px){
     .beach{
         margin: 0px;
         padding: 0px;
     }
     .beach img{
         width: 100%;
-        height: 361px;
+        height: 275px;
+    }
+    .beach__img{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 20px 0px;
     }
     .care {
-        left: 9px;
-        width: 200px;
-        height: 99px;
+        left: 6px;
+        /* width: 179px; */
+        height: 25%;
         background-color: #FC7E8A;
-        top: 679px;
+        /* top: 679px; */
+        padding: 10% 0;
+        width: 41%;
+        bottom: 36%;
     }
     .care p {
-        margin-bottom: 8px;
-        color: black;
-        font-size: 18px;
+        color: whitesmoke;
+        padding: 13px;
+        font-size: 15px;
         font-weight: bold;
+    }
+
+    .care .btn-light a{
+        color: #FC7E8A;
+    }
+
+    .info{
+        flex-direction: column;
+        height: auto;
+        padding: 0 22%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .beach{
+        margin: 0px;
+        padding: 0px;
+    }
+    .beach img{
+        width: 100%;
+        height: 275px;
+    }
+    .beach__img{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 20px 0px;
+    }
+    .care {
+        background-color: #FC7E8A;
+        left: 75px;
+        height: 25%;
+        padding: 7% 0;
+        width: 64%;
+        bottom: 27%;
+    }
+    .care p {
+        color: whitesmoke;
+        padding: 13px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .care .btn-light a{
+        color: #FC7E8A;
+    }
+
+    .info{
+        flex-direction: column;
+        height: auto;
+        padding: 0 22%;
     }
 }
