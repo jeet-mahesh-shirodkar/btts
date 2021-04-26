@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+.headerText a {
+  text-decoration: none;
+    color: black;
+}
+
+.headerText a:hover {
+  text-decoration: none;
+    color: black;
+}
 .headerText{
   padding: 14px 0px;
   width: 100%;
@@ -36,7 +45,7 @@
     padding: 30px 0px;
   width: 100%;
   height: auto;
-    font-size: 25px;
+    font-size: 29px;
     font-weight: bold;
     background-color: aliceblue;
     text-align: center;
@@ -53,7 +62,7 @@
      padding: 30px 0px;
    width: 100%;
    height: auto;
-     font-size: 25px;
+     font-size: 30px;
      font-weight: bold;
      background-color: aliceblue;
      text-align: center;

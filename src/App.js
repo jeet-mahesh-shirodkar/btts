@@ -5,23 +5,25 @@ import BeachComp from './Components/Beach/beach';
 import Footer from './Components/Footer/footer';
 import Vehicle from './Components/Vehicle/vehicleRental';
 import {Activities} from './Components/Activities/activities';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, Redirect,Link } from 'react-router-dom';
 import Contact from './Components/Contact/Contact';
 
 
 function App() {
   return (
     <React.Fragment>
-      <div className="headerText">Bhoomi Tours and Travels</div>
+      <BrowserRouter>
+      <div className="headerText"><Link to="/btts">Bhoomi Tours and Travels</Link></div>
       <Header/>
       <Switch>
-        <Route path="/" exact component={BeachComp}/>
-        <Route path="/vehicle" component={Vehicle}/>
-        <Route path="/activities" component={Activities}/>
-        <Route path="/contact" component={Contact}/>
-        <Redirect to="/"/>
+        <Route path="/btts" exact component={BeachComp}/>
+        <Route path="/btts/vehicle" component={Vehicle}/>
+        <Route path="/btts/activities" component={Activities}/>
+        <Route path="/btts/contact" component={Contact}/>
+        <Redirect to="/btts"/>
       </Switch>
       <Footer/>
+      </BrowserRouter>
     </React.Fragment>
   );
 }
