@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/btts/static/css/main.0a432362.chunk.css",
+    "main.js": "/btts/static/js/main.bcc8300c.chunk.js",
+    "main.js.map": "/btts/static/js/main.bcc8300c.chunk.js.map",
+    "runtime-main.js": "/btts/static/js/runtime-main.0f530f2a.js",
+    "runtime-main.js.map": "/btts/static/js/runtime-main.0f530f2a.js.map",
+    "static/css/2.69121389.chunk.css": "/btts/static/css/2.69121389.chunk.css",
+    "static/js/2.5a616ff8.chunk.js": "/btts/static/js/2.5a616ff8.chunk.js",
+    "static/js/2.5a616ff8.chunk.js.map": "/btts/static/js/2.5a616ff8.chunk.js.map",
+    "index.html": "/btts/index.html",
+    "precache-manifest.22fc0ac4066f3181feb159ec241f9975.js": "/btts/precache-manifest.22fc0ac4066f3181feb159ec241f9975.js",
+    "service-worker.js": "/btts/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/btts/static/css/2.69121389.chunk.css.map",
+    "static/css/main.0a432362.chunk.css.map": "/btts/static/css/main.0a432362.chunk.css.map",
+    "static/js/2.5a616ff8.chunk.js.LICENSE.txt": "/btts/static/js/2.5a616ff8.chunk.js.LICENSE.txt",
+    "static/media/Banglow.jpg": "/btts/static/media/Banglow.389bb9af.jpg",
+    "static/media/Beach-min.png": "/btts/static/media/Beach-min.64e108c5.png",
+    "static/media/Bullet_350.jpg": "/btts/static/media/Bullet_350.34778a2e.jpg",
+    "static/media/Swift.jpg": "/btts/static/media/Swift.340e678c.jpg",
+    "static/media/bananagBoat.jpg": "/btts/static/media/bananagBoat.00abd8f0.jpg",
+    "static/media/bumperBoat.jpg": "/btts/static/media/bumperBoat.84a424d1.jpg",
+    "static/media/cruise.jpg": "/btts/static/media/cruise.7e0cb8d0.jpg",
+    "static/media/dolphin.jpg": "/btts/static/media/dolphin.42726bbf.jpg",
+    "static/media/jetSkiing.jpg": "/btts/static/media/jetSkiing.f0208a4d.jpg",
+    "static/media/parasailing1.jpg": "/btts/static/media/parasailing1.559341ae.jpg",
+    "static/media/scuba.jpg": "/btts/static/media/scuba.d65bec34.jpg",
+    "static/media/snorkel-hierro.jpg": "/btts/static/media/snorkel-hierro.dc8d252f.jpg",
+    "static/media/sunlight.png": "/btts/static/media/sunlight.2835c466.png",
+    "static/media/waterSport1.jpg": "/btts/static/media/waterSport1.fa5cab03.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0f530f2a.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.5a616ff8.chunk.js",
+    "static/css/main.0a432362.chunk.css",
+    "static/js/main.bcc8300c.chunk.js"
+  ]
+}
