@@ -7,10 +7,10 @@ const Header = () => {
    <div className="myNav">
     <div className="Nav">
       <ul>
-        <li><NavLink exact activeClassName="nav-active" to="/">Home</NavLink></li>
-        <li><NavLink activeClassName="nav-active" to="/vehicle">Vehicle Rental</NavLink></li>
-        <li><NavLink activeClassName="nav-active" to="/activities">Activities</NavLink></li>
-        <li><NavLink activeClassName="nav-active" to="/contact">Contact</NavLink></li>
+        <li><NavLink exact activeClassName="nav-active" to="/btts">Home</NavLink></li>
+        <li><NavLink activeClassName="nav-active" to="/btts/vehicle">Vehicle Rental</NavLink></li>
+        <li><NavLink activeClassName="nav-active" to="/btts/activities">Activities</NavLink></li>
+        <li><NavLink activeClassName="nav-active" to="/btts/contact">Contact</NavLink></li>
       </ul>
     </div>
   </div>
