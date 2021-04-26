@@ -14,7 +14,7 @@ const Footer=()=>{
              <Card.Header><i className="fa fa-mobile" aria-hidden="true"></i></Card.Header>
                 <Card.Body>
                      <Card.Title>CONTACT</Card.Title>
-                    <Card.Text>Phone : 0983456789</Card.Text>
+                    <Card.Text>Phone : 0912345678</Card.Text>
                     <Card.Title>MAIL</Card.Title>
                     <Card.Text>E-mail : travels@some.com</Card.Text>
                     <Card.Text>
@@ -49,7 +49,7 @@ const Footer=()=>{
                     <Card.Text>
                         Bhoomi Tours & Travels,Bamon Vadde,
                         Golden tulip hotel ,Candolim,Bardez,
-                        Goa 403515
+                        Goa 403515.
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -57,7 +57,7 @@ const Footer=()=>{
         </Row>
         </Container>     
       <div className="footerText"></div>
-      <div className="footerText"><p>© 2020 Bhoomi Tours and Travels</p><h6>Developed by Me</h6></div>
+      <div className="footerText"><p>© 2020 Bhoomi Tours and Travels</p><h6>Developed by <a href="https://jeet-mahesh-shirodkar.github.io">Jeet</a></h6></div>
         </div>
     </React.Fragment>);
 }
