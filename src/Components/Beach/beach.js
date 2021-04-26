@@ -15,7 +15,7 @@ const BeachComp = ()=> {
         </div>
     <div className="care">
         <p>We Care We Plan</p>
-        <Button variant="light"><Link to="/contact">Contact Us</Link></Button>
+        <Button variant="light"><Link to="/btts/contact">Contact Us</Link></Button>
     </div>
     <div className="info">
         <div className="info1">
